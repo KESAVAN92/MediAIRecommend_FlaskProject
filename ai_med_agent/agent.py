@@ -7,6 +7,7 @@ from langchain.docstore.document import Document
 from langchain.chains import RetrievalQA
 
 
+
 df = pd.read_csv(os.path.join(os.path.dirname(__file__), "medicines.csv"))
 
 
