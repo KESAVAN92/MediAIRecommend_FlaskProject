@@ -5,6 +5,8 @@ from langchain_ollama import OllamaEmbeddings
 from langchain_community.llms import Ollama
 from langchain.docstore.document import Document
 from langchain.chains import RetrievalQA
+openai==1.3.0
+requests==2.32.3
 
 df = pd.read_csv(os.path.join(os.path.dirname(__file__), "medicines.csv"))
 
